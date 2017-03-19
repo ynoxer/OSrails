@@ -1,0 +1,2 @@
+module MemoryWordsHelper
+end

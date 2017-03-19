@@ -1,0 +1,2 @@
+module RealMachineHelper
+end

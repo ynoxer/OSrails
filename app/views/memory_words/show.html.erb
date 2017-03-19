@@ -1,0 +1,10 @@
+<% for i in 1..MemoryWord.count %>
+  <% if i%10 == 1 then %>
+    <h2>
+    <%= i %>::<%= i + 9 %> |
+  <% end %>
+    <%= @mem[i].word %>
+  <% if i%10 == 0 then %>
+    </h2>
+  <% end %>  
+<% end %> 
